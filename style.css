@@ -15,13 +15,8 @@ body{
 }
 
 .bgimage {
-    width:100%;
-    height:500px;
     background: url('img/john-towner-JgOeRuGD_Y4-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
     background-size:cover;
-    background-attachment: fixed;
   }
 
 @media (min-width: 768px) {
