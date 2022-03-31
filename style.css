@@ -8,6 +8,11 @@ body{
     font-family: 'Montserrat', sans-serif !important;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif !important;
+}
+
 #map {
     width: 100%;
     height: 100%;
@@ -17,6 +22,9 @@ body{
 .bgimage {
     background: url('img/john-towner-JgOeRuGD_Y4-unsplash.jpg');
     background-size:cover;
+  }
+  .filter-light {
+    filter: invert(91%) sepia(4%) saturate(54%) hue-rotate(168deg) brightness(109%) contrast(96%);
   }
 
 @media (min-width: 768px) {
